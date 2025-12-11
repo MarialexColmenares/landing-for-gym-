@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym La Esquina del Boxeo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="main-header" id="inicio">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="img/logo_boxeo.jpg" alt="La Esquina del Boxeo Logo" class="logo-img">
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#clases" class="nav-link">Clases</a></li>
+                    <li><a href="#precios" class="nav-link">Precios</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                </ul>
+                <a href="#" class="cta-button">Únete Ahora</a>
+            </nav>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">La Esquina del Boxeo</h1>
+            <p class="hero-subtitle">
+                Rompe tus límites y despierta al campeón que llevas dentro.<br>
+                Tu transformación comienza en el primer round.
+            </p>
+            <div class="hero-buttons">
+                <a href="#precios" class="btn btn-primary">Prueba Gratuita</a>
+                <a href="#precios" class="btn btn-secondary">Ver Planes</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección: Por qué elegirnos -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegirnos?</h2>
+                <p class="section-subtitle">Entrena diferente, entrena con los mejores.</p>
+                
+                <div class="features-grid">
+                    <!-- Tarjeta 1 -->
+                    <div class="feature-card">
+                        <i class='bx bx-dumbbell feature-icon'></i>
+                        <h3>Equipamiento Moderno</h3>
+                        <p>Instalaciones de primer nivel y máquinas de última generación para potenciar tu entrenamiento.</p>
+                    </div>
+                    
+                    <!-- Tarjeta 2 -->
+                    <div class="feature-card">
+                        <i class='bx bx-certification feature-icon'></i>
+                        <h3>Entrenadores Certificados</h3>
+                        <p>Profesionales experimentados que te guiarán paso a paso para alcanzar tus metas.</p>
+                    </div>
+                    
+                    <!-- Tarjeta 3 -->
+                    <div class="feature-card">
+                        <i class='bx bx-time-five feature-icon'></i>
+                        <h3>Horarios Flexibles</h3>
+                        <p>Clases disponibles desde la mañana hasta la noche, adaptándonos a tu ritmo de vida.</p>
+                    </div>
+                    
+                    <!-- Tarjeta 4 -->
+                    <div class="feature-card">
+                        <i class='bx bx-trophy feature-icon'></i>
+                        <h3>Resultados Garantizados</h3>
+                        <p>Sigue nuestro programa y verás una transformación real en tu físico y mentalidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Nuestras Clases -->
+        <section class="classes-section" id="clases">
+            <div class="container">
+                <h2 class="section-title">Nuestras Clases</h2>
+                <p class="section-subtitle">Encuentra el entrenamiento perfecto para ti.</p>
+
+                <div class="classes-grid">
+                    <!-- Clase 1 -->
+                    <div class="class-card">
+                        <div class="class-content">
+                            <h3>Boxeo Recreativo</h3>
+                            <div class="class-duration">
+                                <i class='bx bx-time'></i> 60 Minutos
+                            </div>
+                            <p>Aprende las técnicas fundamentales del boxeo mientras te diviertes y quemas calorías. Ideal para principiantes.</p>
+                            <a href="#" class="class-btn">Ver Horarios</a>
+                        </div>
+                    </div>
+
+                    <!-- Clase 2 -->
+                    <div class="class-card">
+                        <div class="class-content">
+                            <h3>Boxeo Competitivo</h3>
+                            <div class="class-duration">
+                                <i class='bx bx-time'></i> 90 Minutos
+                            </div>
+                            <p>Entrenamiento de alto rendimiento enfocado en técnica avanzada, sparring y estrategia de combate.</p>
+                            <a href="#" class="class-btn">Ver Horarios</a>
+                        </div>
+                    </div>
+
+                    <!-- Clase 3 -->
+                    <div class="class-card">
+                        <div class="class-content">
+                            <h3>Acondicionamiento</h3>
+                            <div class="class-duration">
+                                <i class='bx bx-time'></i> 45 Minutos
+                            </div>
+                            <p>Mejora tu resistencia, fuerza y agilidad con circuitos intensos diseñados para boxeadores.</p>
+                            <a href="#" class="class-btn">Ver Horarios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección: Planes y Precios -->
+        <section class="pricing-section" id="precios">
+            <div class="container">
+                <h2 class="section-title">Planes y Precios</h2>
+                <p class="section-subtitle">Elige el plan perfecto para ti.</p>
+
+                <div class="pricing-grid">
+                    <!-- Plan Básico -->
+                    <div class="pricing-card">
+                        <h3 class="plan-name">Básico</h3>
+                        <div class="plan-price">$29 <span>/mes</span></div>
+                        <ul class="plan-features">
+                            <li><i class='bx bx-check'></i> Acceso al gimnasio 24/7</li>
+                            <li><i class='bx bx-check'></i> Área de cardio y pesas</li>
+                            <li><i class='bx bx-check'></i> Vestuarios y duchas</li>
+                            <li><i class='bx bx-check'></i> App de seguimiento</li>
+                             <li><i class='bx bx-check'></i> Descuentos en tienda</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary plan-btn">Elegir Plan</a>
+                    </div>
+
+                    <!-- Plan Premium (Más Popular) -->
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Más Popular</div>
+                        <h3 class="plan-name">Premium</h3>
+                        <div class="plan-price">$49 <span>/mes</span></div>
+                        <ul class="plan-features">
+                            <li><i class='bx bx-check'></i> Todo lo del plan Básico</li>
+                            <li><i class='bx bx-check'></i> Clases grupales ilimitadas</li>
+                            <li><i class='bx bx-check'></i> Entrenamiento personalizado mensual</li>
+                            <li><i class='bx bx-check'></i> Evaluación física trimestral</li>
+                             <li><i class='bx bx-check'></i> Descuentos en tienda</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary plan-btn">Elegir Plan</a>
+                    </div>
+
+                    <!-- Plan Elite -->
+                    <div class="pricing-card">
+                        <h3 class="plan-name">Elite</h3>
+                        <div class="plan-price">$79 <span>/mes</span></div>
+                        <ul class="plan-features">
+                            <li><i class='bx bx-check'></i> Todo lo del plan Premium</li>
+                            <li><i class='bx bx-check'></i> Entrenamiento personal 2x semana</li>
+                            <li><i class='bx bx-check'></i> Plan nutricional personalizado</li>
+                            <li><i class='bx bx-check'></i> Acceso a zona VIP</li>
+                            <li><i class='bx bx-check'></i> Masajes deportivos mensuales</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary plan-btn">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección: Testimonios -->
+        <section class="testimonials-section" id="testimonios">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros campeones</h2>
+                <p class="section-subtitle">Historias reales de transformación y superación.</p>
+
+                <div class="testimonials-grid">
+                    <!-- Testimonio 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="img/testimonio_1.jpg" alt="Carlos M." class="testimonial-img">
+                            <div class="testimonial-info">
+                                <h3>Carlos Mendez</h3>
+                                <span class="client-type">Miembro desde 2023</span>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Nunca pensé que el boxeo cambiaría tanto mi vida. No solo he perdido 15 kilos, sino que mi confianza y disciplina están en otro nivel. Los entrenadores son increíbles."</p>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="img/testimonio_2.jpg" alt="Laura G." class="testimonial-img">
+                            <div class="testimonial-info">
+                                <h3>Luis Gonzalez</h3>
+                                <span class="client-type">Boxeo Competitivo</span>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"El ambiente en La Esquina del Boxeo es inigualable. Aquí encontré una segunda familia que me empuja a ser mejor cada día. ¡Totalmente recomendado!"</p>
+                    </div>
+
+                    <!-- Testimonio 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="img/testimonio_3.jpg" alt="Sofia R." class="testimonial-img">
+                            <div class="testimonial-info">
+                                <h3>Sofia Ramirez</h3>
+                                <span class="client-type">Entrenamiento Funcional</span>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Buscaba un lugar para desestresarme del trabajo y encontré mi pasión. Las instalaciones son top y siempre están impecables. 5 estrellas sin duda."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección: Llamada a la Acción (CTA) -->
+        <section class="cta-highlight-section">
+            <div class="cta-content-wrapper">
+                <h2 class="cta-title">¿Listo para subir al ring de tu vida?</h2>
+                <p class="cta-text">
+                    No esperes más para alcanzar tu mejor versión. <br>
+                    El sudor de hoy es el triunfo de mañana. ¡Empieza tu transformación ahora!
+                </p>
+                <div class="cta-buttons-container">
+                    <a href="#" class="btn btn-dark">Prueba Gratuita</a>
+                    <a href="#" class="btn btn-outline-dark">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content container">
+            <div class="footer-grid">
+                <!-- Columna 1: Info -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">La Esquina del <span class="highlight">Boxeo</span></span>
+                    </div>
+                    <p class="footer-desc">
+                        Transformamos vidas a través del deporte. Más que un gimnasio, somos una comunidad de luchadores.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="social-icon"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="social-icon"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Enlaces Rápidos -->
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#clases">Clases</a></li>
+                        <li><a href="#precios">Planes</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Horarios -->
+                <div class="footer-col">
+                    <h3>Horarios</h3>
+                    <ul class="footer-schedule">
+                        <li><span>Lunes - Viernes:</span> 6:00 AM - 10:00 PM</li>
+                        <li><span>Sábados:</span> 8:00 AM - 6:00 PM</li>
+                        <li><span>Domingos:</span> 9:00 AM - 2:00 PM</li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Contacto -->
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <ul class="footer-contact">
+                        <li><i class='bx bx-map'></i> Av. Principal 123, Ciudad Deportiva</li>
+                        <li><i class='bx bx-phone'></i> +123 456 7890</li>
+                        <li><i class='bx bx-envelope'></i> info@esquinaboxeo.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 La Esquina del Boxeo. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
